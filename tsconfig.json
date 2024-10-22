@@ -17,6 +17,12 @@
       "@/public/*": ["./public/*"]
     }
   },
-  "include": ["kakao.maps.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "pages/types/global.d.ts",
+    "kakao.maps.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
   "exclude": ["node_modules"]
 }
