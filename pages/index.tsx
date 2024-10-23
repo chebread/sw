@@ -1,7 +1,6 @@
 import styles from './Home.module.css';
 import { Map, MapTypeId, ZoomControl } from 'react-kakao-maps-sdk';
 import useKakaoLoader from '@/components/use-kakao-loader';
-import { useState } from 'react';
 
 export default function Home() {
   useKakaoLoader();
